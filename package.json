@@ -1,0 +1,22 @@
+{
+    "name": "staticser",
+    "version": "1.0.4",
+    "description": "自启动前端静态服务",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "bin": {
+        "staticser": "bin/server"
+    },
+    "dependencies": {
+        "commander": "^2.9.0"
+    },
+    "author": "陈元广",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chenyuanguang/staticser"
+    }
+}
